@@ -1,0 +1,53 @@
+body {
+  background-color: pink;
+  font-family: Arial, CenturyGothic, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+header {
+  background-color: brown;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 600px;
+}
+
+section {
+  float:left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+footer {
+  clear: both;
+  background-color: #7286A0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.pagetwo {
+  padding-top: 30px;
+  padding-left: 50px;
+  text-align: right;
+}
+
+a:link {
+  background-font: purple;
+}
+
+a:hover {
+  background-color: white;
+}
