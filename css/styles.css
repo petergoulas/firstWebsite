@@ -45,9 +45,25 @@ footer {
 }
 
 a:link {
-  background-font: purple;
+  color: #fff;
+  padding-right: 20px;
 }
 
+/*
 a:hover {
-  background-color: white;
+  background-color: purple;
+}
+*/
+
+.container2 {
+  clear: both;
+  /*
+  background-color: yellow;
+  */
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #1F2937;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
 }
