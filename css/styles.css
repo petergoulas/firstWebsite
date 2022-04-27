@@ -6,7 +6,10 @@ body {
 }
 
 header {
+  /*
   background-color: brown;
+  */
+  background-color: #1F2937;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -49,21 +52,50 @@ a:link {
   padding-right: 20px;
 }
 
+a:visited {
+  color: #fff;
+}
+
 /*
 a:hover {
   background-color: purple;
 }
 */
 
+/*
 .container2 {
   clear: both;
   /*
   background-color: yellow;
   */
+  /*
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #1F2937;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+}
+
+*/
+
+.container2 {
+  clear: both;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.container2Items {
+  position: relative;
+  color: white;
+  width: 27em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2.5vw;
 }
