@@ -1,19 +1,25 @@
 body {
-  background-color: pink;
+  background-image: url(../img/clouds.jpg);
+  background-position: center;
+  background-size: cover;
   font-family: Arial, CenturyGothic, sans-serif;
   font-size: 18px;
   margin: 0;
 }
 
 header {
-  /*
-  background-color: brown;
-  */
   background-color: #1F2937;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
+  /*
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  */
+  
+  
 
 }
 
@@ -41,10 +47,42 @@ footer {
   text-align: center;
 }
 
+.pageone {
+  /*
+  text-align: center;
+  */
+  padding-top: 200px;
+  padding-right: 370px;
+  padding-bottom: 5px;
+}
+
 .pagetwo {
-  padding-top: 30px;
-  padding-left: 50px;
-  text-align: right;
+  /*
+  text-align: center;
+  */
+  padding-top: 10px;
+  padding-left: 370px;
+  padding-bottom: 5px;
+}
+
+/* chaining page2 link with different color than other links */
+.pageone a:link {
+  color: black;
+}
+
+/* chaining page2 link with different color than other links */
+.pagetwo a:link {
+  color: black;
+}
+
+/* chaining page2 link with different color than other links */
+.pagetwo a:visited {
+  color: black;
+}
+
+/* chaining page2 link with different color than other links */
+.pageone a:visited {
+  color: black;
 }
 
 a:link {
@@ -55,6 +93,7 @@ a:link {
 a:visited {
   color: #fff;
 }
+
 
 /*
 a:hover {
@@ -98,4 +137,8 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin-right: 2.5vw;
+}
+
+.page2_aside {
+  padding-right: 100px;
 }
