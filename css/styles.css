@@ -4,8 +4,48 @@ body {
   background-size: cover;
   font-family: Arial, CenturyGothic, sans-serif;
   font-size: 18px;
+  height: 100vh;
   margin: 0;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center;  */
+
+  /* height:vh; */
+
+  /* flexbox stuff */
+  /* display: flex;
+  align-items: center;
+  justify-items: center; */
 }
+
+/* flexbox stuff login page */
+.login_body_flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-items: center;  */
+  /* justify-content: center; */
+
+  /* trying out and maybe doesnt work */
+  /*
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0.2);
+  border-radius: var(4px);
+  background: #ffffff;
+  */
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0.2);
+  border-radius: var(4px);
+  background: #ffffff;
+}
+
 
 header {
   background-color: #1F2937;
@@ -21,6 +61,15 @@ header {
   
   
 
+}
+
+input, label {
+  display:block;
+}
+
+.forgot_password {
+  padding-top: 15px;
+  color: blue;
 }
 
 .container {
@@ -61,9 +110,36 @@ footer {
   text-align: center;
   */
   padding-top: 10px;
-  padding-left: 370px;
+  /* padding-left: 370px; */
+  /* padding-left: 10px;
+  padding-bottom: 5px; */
+}
+
+/* .login {
+
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 5px;
   padding-bottom: 5px;
 }
+*/
+
+.pageone .login {
+  color: yellow;
+  /* padding-left: 270px; */
+}
+
+
+.pagetwo .login_link {
+  /* padding-right: 270px; */
+  background-color: red;
+}
+
+.pagetwo .pagetwo_link {
+  padding-left: 270px;
+  background-color: yellow;
+}
+
 
 /* chaining page2 link with different color than other links */
 .pageone a:link {
@@ -71,14 +147,14 @@ footer {
 }
 
 /* chaining page2 link with different color than other links */
-.pagetwo a:link {
+/* .pagetwo a:link {
   color: black;
-}
+} */
 
 /* chaining page2 link with different color than other links */
-.pagetwo a:visited {
+/* .pagetwo a:visited {
   color: black;
-}
+} */
 
 /* chaining page2 link with different color than other links */
 .pageone a:visited {
@@ -86,12 +162,13 @@ footer {
 }
 
 a:link {
-  color: #fff;
-  padding-right: 20px;
+  /* color: #fff; */
+  color:blue;
+  /* padding-right: 20px; */
 }
 
 a:visited {
-  color: #fff;
+  color: purple;
 }
 
 
