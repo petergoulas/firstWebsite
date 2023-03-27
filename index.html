@@ -3,17 +3,26 @@
 <html lang="en">
 
   <head>
+    <script type="text/javascript" src="script.js"></script>
     <meta charset="utf-8">
     <meta name="author" content="Peter">
     <link rel="stylesheet" href="css/styles.css">
     <title> PG's First Website </title>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
   </head>
 
   <body>
 
     <header>
       <h1 style="color: #fff;">
-        PG's First Website
+        <div>
+        PG's Websitee
+        </div>
+
+        <div class="right-col">
+            <img src="img/play.png" id="icon">    
+        </div>
+
       </h1>
     </header>
 
@@ -95,6 +104,24 @@
       </div>
     </div>
 
+    <audio id="mysong">
+        <source src="media/song.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mysong=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+
+        icon.onclick=function(){
+          if(mysong.paused) {
+            mysong.play();
+            icon.src = "img/pause2.png"
+          } else {
+            mysong.pause();
+            icon.src = "img/play.png";
+          }
+        }
+    </script>
 
 
 

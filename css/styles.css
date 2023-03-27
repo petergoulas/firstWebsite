@@ -1,32 +1,52 @@
 body {
   background-image: url(../img/clouds.jpg);
+  /* background-color: #3b065e; */
   background-position: center;
   background-size: cover;
   font-family: Arial, CenturyGothic, sans-serif;
   font-size: 18px;
+  
+  /* margin: 0; */
   height: 100vh;
-  margin: 0;
+ 
 
+  /* this chunk of 3 lines can fix the login page but screws with page 2 and 3   */
   /* display: flex;
   align-items: center;
   justify-content: center;  */
 
+  
   /* height:vh; */
-
   /* flexbox stuff */
   /* display: flex;
   align-items: center;
   justify-items: center; */
 }
-
 /* flexbox stuff login page */
 .login_body_flexbox {
+  /* width: 400px;
+  max-width: 400px; */
+
+  /* margin: 1rem;
+  padding: 2rem; */
+
+  width: 100%;
+  max-width: 700px;
+  margin:auto;
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  height: 50vh;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
   /* justify-items: center;  */
   /* justify-content: center; */
-
   /* trying out and maybe doesnt work */
   /*
   width: 400px;
@@ -37,13 +57,31 @@ body {
   border-radius: var(4px);
   background: #ffffff;
   */
-  width: 400px;
-  max-width: 400px;
-  margin: 1rem;
-  padding: 2rem;
+  /* margin: 0; */
+  /* height: 50vh; */
+
+  
+  /* its about the borders basically */
+  /* margin: 1rem;
+  padding: 2rem; */
+  
   box-shadow: 0 0 40px rgba(0, 0, 0.2);
   border-radius: var(4px);
   background: #ffffff;
+}
+
+section {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+
+  /* height: 100vh; */
+  /* width: 400px;
+  max-width: 400px; 
+
+  margin: 1rem;
+  padding: 2rem; */
 }
 
 
@@ -132,12 +170,12 @@ footer {
 
 .pagetwo .login_link {
   /* padding-right: 270px; */
-  background-color: red;
+  /* background-color: red; */
 }
 
 .pagetwo .pagetwo_link {
   padding-left: 270px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 
