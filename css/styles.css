@@ -1,13 +1,13 @@
 body {
-  background-image: url(../img/clouds.jpg);
+  background-image: url(../img/rainy.jpg);
   /* background-color: #3b065e; */
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
   font-family: Arial, CenturyGothic, sans-serif;
   font-size: 18px;
   
   /* margin: 0; */
-  height: 100vh;
+  /* height: 1vh; */
  
 
   /* this chunk of 3 lines can fix the login page but screws with page 2 and 3   */
@@ -22,6 +22,12 @@ body {
   align-items: center;
   justify-items: center; */
 }
+
+.right-col {
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
 /* flexbox stuff login page */
 .login_body_flexbox {
   /* width: 400px;
@@ -86,7 +92,7 @@ section {
 
 
 header {
-  background-color: #1F2937;
+  /* background-color: #1F2937; */
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -96,8 +102,8 @@ header {
   width: 100%;
   margin: 0 auto 0 auto;
   */
-  
-  
+
+
 
 }
 
@@ -240,7 +246,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1F2937;
+  /* background-color: #1F2937; */
 }
 
 .container2Items {
@@ -252,6 +258,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin-right: 2.5vw;
+  padding-top: 100px;
 }
 
 .page2_aside {
